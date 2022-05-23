@@ -1,0 +1,63 @@
+/*
+Theme Name: mi_custom_theme 
+Theme URI: http://wordpress.org/themes/mi_custom_theme
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: custom theme from scratch
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border:0;
+}
+
+/*header .site-header {
+    width: 100%;
+}*/
+.header-top{
+    display: flex;
+    background: #c02219;
+    
+}
+.site-logo {
+    width: 50%;
+    padding: 10px 10px;
+}
+.header-search{
+    width: 50%;
+}
+.site-logo img {
+    width: 100px;
+    height: auto;
+}
+.site-nav {
+    width: 100%;
+}
+.site-nav .menu li{
+    display: inline-block;
+}
+.site-nav .menu li a{
+    text-decoration: none;
+}
+
+/* footer css */
+footer {
+    width: 100%;
+}
+footer .site-footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+footer ul {
+    width: 10%;
+    list-style-type: none;
+    float: right;
+}
+footer ul li {
+    display: inline-block;
+}
